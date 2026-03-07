@@ -1,0 +1,13 @@
+# Large Binaries
+frida-server*
+*.apk
+*.ipa
+
+# Python environment
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+
+# Reports
+audit_report_*.json
