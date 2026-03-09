@@ -2,6 +2,17 @@ Script.nextTick(function() {
     Java.perform(function () {
         send({"type": "info", "message": "RASP Agent injected. Installing hooks..."});
 
+        // Легитимные хосты банковского приложения
+        // Всё что не входит в этот список — подозрительно
+        var TRUSTED_HOSTS = ["10.0.2.2", "localhost", "127.0.0.1"];
+
+        function isTrusted(url) {
+            for (var i = 0; i < TRUSTED_HOSTS.length; i++) {
+                if (url.indexOf(TRUSTED_HOSTS[i]) !== -1) return true;
+            }
+            return false;
+        }
+
         // HOOK 1: ATS Bot Detection
         try {
             var View = Java.use("android.view.View");
@@ -48,17 +59,30 @@ Script.nextTick(function() {
             send({"type": "error", "message": "Hook #2 failed: " + e.message});
         }
 
-        // HOOK 3a: DefaultHttpClient — основной HTTP-клиент InsecureBankv2
+        // HOOK 3a: DefaultHttpClient — перехват всех HTTP-запросов
+        // Легитимные запросы к серверу банка логируются как INFO
+        // Запросы на посторонние хосты — CRITICAL (C2 exfiltration)
         try {
             var DefaultHttpClient = Java.use("org.apache.http.impl.client.DefaultHttpClient");
             DefaultHttpClient.execute.overload(
                 "org.apache.http.client.methods.HttpUriRequest"
             ).implementation = function (request) {
-                send({
-                    "type":    "warning",
-                    "threat":  "Network Request",
-                    "message": "HTTP " + request.getMethod() + " → " + request.getURI().toString()
-                });
+                var url = request.getURI().toString();
+                var method = request.getMethod();
+
+                if (isTrusted(url)) {
+                    send({
+                        "type":    "warning",
+                        "threat":  "Network Request",
+                        "message": "Legitimate: HTTP " + method + " → " + url
+                    });
+                } else {
+                    send({
+                        "type":    "critical",
+                        "threat":  "C2 Exfiltration",
+                        "message": "SUSPICIOUS: HTTP " + method + " → " + url + " [NOT a bank server!]"
+                    });
+                }
                 return this.execute(request);
             };
             send({"type": "info", "message": "Hook #3a (Network / DefaultHttpClient.execute) — OK"});
@@ -66,15 +90,17 @@ Script.nextTick(function() {
             send({"type": "error", "message": "Hook #3a failed: " + e.message});
         }
 
-        // HOOK 3b: URL.$init — ловим C2-запросы изнутри процесса
+        // HOOK 3b: URL.$init — ловим создание любого URL изнутри процесса
         try {
             var URL = Java.use("java.net.URL");
             URL.$init.overload("java.lang.String").implementation = function (url) {
-                send({
-                    "type":    "warning",
-                    "threat":  "Network Request",
-                    "message": "URL created inside process: " + url
-                });
+                if (!isTrusted(url)) {
+                    send({
+                        "type":    "critical",
+                        "threat":  "C2 Exfiltration",
+                        "message": "SUSPICIOUS URL created: " + url + " [NOT a bank server!]"
+                    });
+                }
                 this.$init(url);
             };
             send({"type": "info", "message": "Hook #3b (Network / URL.$init) — OK"});
