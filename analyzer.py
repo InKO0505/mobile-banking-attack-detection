@@ -10,7 +10,7 @@ TARGET_APK   = "com.android.insecurebankv2"
 session_logs = []
 frida_proc   = None
 
-# C2-скрипт который инжектируется в процесс банка по команде
+
 C2_INJECT = """
 Java.perform(function() {
     var thread = Java.use('java.lang.Thread');

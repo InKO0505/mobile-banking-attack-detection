@@ -2,8 +2,7 @@ Script.nextTick(function() {
     Java.perform(function () {
         send({"type": "info", "message": "RASP Agent injected. Installing hooks..."});
 
-        // Легитимные хосты банковского приложения
-        // Всё что не входит в этот список — подозрительно
+       
         var TRUSTED_HOSTS = ["10.0.2.2", "localhost", "127.0.0.1"];
 
         function isTrusted(url) {
@@ -13,7 +12,7 @@ Script.nextTick(function() {
             return false;
         }
 
-        // HOOK 1: ATS Bot Detection
+        
         try {
             var View = Java.use("android.view.View");
             View.dispatchTouchEvent.implementation = function (ev) {
@@ -33,7 +32,7 @@ Script.nextTick(function() {
             send({"type": "error", "message": "Hook #1 failed: " + e.message});
         }
 
-        // HOOK 2: Overlay Detection
+      
         try {
             var Activity = Java.use("android.app.Activity");
             Activity.onWindowFocusChanged.implementation = function (hasFocus) {
@@ -59,9 +58,7 @@ Script.nextTick(function() {
             send({"type": "error", "message": "Hook #2 failed: " + e.message});
         }
 
-        // HOOK 3a: DefaultHttpClient — перехват всех HTTP-запросов
-        // Легитимные запросы к серверу банка логируются как INFO
-        // Запросы на посторонние хосты — CRITICAL (C2 exfiltration)
+       
         try {
             var DefaultHttpClient = Java.use("org.apache.http.impl.client.DefaultHttpClient");
             DefaultHttpClient.execute.overload(
@@ -90,7 +87,7 @@ Script.nextTick(function() {
             send({"type": "error", "message": "Hook #3a failed: " + e.message});
         }
 
-        // HOOK 3b: URL.$init — ловим создание любого URL изнутри процесса
+        
         try {
             var URL = Java.use("java.net.URL");
             URL.$init.overload("java.lang.String").implementation = function (url) {
