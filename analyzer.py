@@ -1,7 +1,3 @@
-"""
-analyzer.py — RASP Dynamic Analyzer v2.0
-Использует frida CLI — единственный способ с полным доступом к Java.
-"""
 import sys, json, datetime, subprocess, re
 from colorama import init, Fore, Style
 init(autoreset=True)

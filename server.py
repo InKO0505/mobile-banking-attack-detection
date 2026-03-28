@@ -1,4 +1,3 @@
-# server.py — сохрани в ~/Diploma_Mobile_Security/
 from flask import Flask, request, jsonify
 app = Flask(__name__)
 

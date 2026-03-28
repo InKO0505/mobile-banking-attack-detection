@@ -1,6 +1,3 @@
-"""
-simulate_attack.py — имитация вредоносного поведения
-"""
 import time
 import subprocess
 
@@ -30,7 +27,7 @@ if not check_adb_device():
 print("\n[*] Starting simulation in 3 seconds...")
 time.sleep(3)
 
-# ВЕКТОР 1: ATS
+
 print("\n[VECTOR 1] ATS — Programmatic tap via ADB input...")
 for i in range(3):
     print(f"  Tap #{i+1}")
@@ -38,16 +35,14 @@ for i in range(3):
     time.sleep(1.5)
 time.sleep(2)
 
-# ВЕКТОР 2: Overlay
+
 print("\n[VECTOR 2] Overlay — launching Settings on top of app...")
 run_adb("am start -a android.settings.SETTINGS")
 time.sleep(2)
 run_adb("am start -n com.android.insecurebankv2/.LoginActivity")
 time.sleep(2)
 
-# ВЕКТОР 3: C2 — создаём триггер НА УСТРОЙСТВЕ
-# agent.js опрашивает этот файл каждые 500мс
-# и когда находит — делает C2-запрос изнутри процесса банка
+
 print("\n[VECTOR 3] C2 Network — placing trigger inside device...")
 run_adb("touch /data/local/tmp/c2_trigger")
 print("    [*] Trigger placed — agent will execute C2 request from inside bank process")

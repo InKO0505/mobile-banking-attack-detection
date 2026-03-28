@@ -3,7 +3,7 @@ Script.nextTick(function() {
         send({"type": "info", "message": "RASP Agent injected. Installing hooks..."});
 
         var TRUSTED_HOSTS = ["10.0.2.2:8888", "localhost", "127.0.0.1"];
-        var c2Fired = false; // флаг — C2 срабатывает только один раз
+        var c2Fired = false;
 
         function isTrusted(url) {
             for (var i = 0; i < TRUSTED_HOSTS.length; i++) {
