@@ -1,0 +1,9 @@
+[*] Launching: /home/inko/Documents/rasp-banking/venv/bin/frida -U InsecureBankv2 -l agent.js
+[INFO    ] [SYSTEM] Hook #1+#2b (ATS / View.dispatchTouchEvent + FLAG_WINDOW_IS_OBSCURED) -- OK
+[INFO    ] [SYSTEM] Hook #2 (Overlay / onWindowFocusChanged) -- OK
+[INFO    ] [SYSTEM] Hook #3a (Network / DefaultHttpClient.execute) -- OK
+[INFO    ] [SYSTEM] Hook #3b (Network / URL.$init) -- OK
+[INFO    ] [SYSTEM] === All hooks active. Monitoring started. ===
+REPORT_SAVED=/home/inko/Documents/rasp-banking/results/audit_reports/audit_report_run_002_20260613_161238.json
+
+[+] Audit report saved: /home/inko/Documents/rasp-banking/results/audit_reports/audit_report_run_002_20260613_161238.json

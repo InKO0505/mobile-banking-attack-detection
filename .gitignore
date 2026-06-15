@@ -1,13 +1,16 @@
-# Large Binaries
-frida-server*
-*.apk
-*.ipa
-
-# Python environment
 venv/
-.venv/
+audit_reports/*.json
+frida-server/*
+Android-InsecureBankv2/
 __pycache__/
-*.py[cod]
+*.pyc
+thesis/*.aux
+thesis/*.log
+thesis/*.bbl
+thesis/*.bcf
+thesis/*.out
+thesis/*.toc
+thesis/*.run.xml
 
-# Reports
-audit_report_*.json
+# Локальные настройки Claude Code
+.claude/

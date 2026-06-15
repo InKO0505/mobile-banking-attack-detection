@@ -1,0 +1,8 @@
+Starting: Intent { act=android.settings.SETTINGS }
+Warning: Activity not started, its current task has been brought to the front
+Starting: Intent { cmp=com.android.insecurebankv2/.LoginActivity }
+Warning: Activity not started, its current task has been brought to the front
+[1/3] ATS simulation — 6x programmatic taps via adb input tap
+[2/3] Overlay-proxy simulation — launching Settings then returning to app
+[3/3] C2 trigger — creating /data/local/tmp/c2_trigger on device
+[*] Attack vectors executed.

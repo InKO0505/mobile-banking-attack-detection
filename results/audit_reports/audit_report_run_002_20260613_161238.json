@@ -1,0 +1,42 @@
+{
+  "report_meta": {
+    "generated_at": "2026-06-13T16:13:06.484786",
+    "tool": "RASP Dynamic Analyzer v2.0",
+    "target_app": "com.android.insecurebankv2",
+    "session_id": "run_002_20260613_161238",
+    "scenario": "all",
+    "total_events": 5
+  },
+  "events": [
+    {
+      "timestamp": "2026-06-13T16:12:49.248600",
+      "level": "info",
+      "threat": "SYSTEM",
+      "details": "Hook #1+#2b (ATS / View.dispatchTouchEvent + FLAG_WINDOW_IS_OBSCURED) -- OK"
+    },
+    {
+      "timestamp": "2026-06-13T16:12:49.252567",
+      "level": "info",
+      "threat": "SYSTEM",
+      "details": "Hook #2 (Overlay / onWindowFocusChanged) -- OK"
+    },
+    {
+      "timestamp": "2026-06-13T16:12:49.262955",
+      "level": "info",
+      "threat": "SYSTEM",
+      "details": "Hook #3a (Network / DefaultHttpClient.execute) -- OK"
+    },
+    {
+      "timestamp": "2026-06-13T16:12:49.269826",
+      "level": "info",
+      "threat": "SYSTEM",
+      "details": "Hook #3b (Network / URL.$init) -- OK"
+    },
+    {
+      "timestamp": "2026-06-13T16:12:49.271412",
+      "level": "info",
+      "threat": "SYSTEM",
+      "details": "=== All hooks active. Monitoring started. ==="
+    }
+  ]
+}

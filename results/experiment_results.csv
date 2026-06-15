@@ -1,0 +1,2 @@
+run_id,scenario,valid_report,report_file,ats_detected,overlay_proxy_detected,real_overlay_detected,c2_detected,hook_1_2b_present,hook_2_present,hook_3a_present,hook_3b_present,shutdown_mode,reason,notes
+run_001_20260613_161213,all,True,/home/inko/Documents/rasp-banking/results/audit_reports/audit_report_run_001_20260613_161213.json,True,True,False,True,True,True,True,True,clean,ok,
